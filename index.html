@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>درگاه</title>
+     <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+
+     <main id="main">
+
+          <div id="cardd" class="card">
+
+               <div id="cardInnerr" class="cardInner">
+
+                    <div class="cart-bank-name"><img src="images/BG.jpg"></div>
+
+                    <div id="crdNumberplacholder" class="cart-number"></div>
+
+                    <div class="other-detail">
+
+                         <div class="cart-name" id="crdNameplacholder"></div>
+                         <div id="ccvplacholder" class="cart-ccv2"></div>
+                         <div class="cart-expire">
+
+                              <span id="monthExpireplacholder"></span>
+                              <span>\</span>
+                              <span id="yearExpireplacholder"></span>
+                         
+                         </div>
+
+                    </div>
+
+               </div>
+
+          </div>
+
+          <div id="formi" class="card-container">
+
+               <div class="form" id="finisher">
+
+                    <form action="#" class="form-inner" id="cardRecorder">
+
+                         <div class="form-item df jcc aic">
+
+                              <label for="">شماره کارت</label>
+                              <input type="text" name="crdNumber" id="crdNumber" placeholder="شماره کارت خودتون رو وارد کنید">
+
+                         </div>
+
+                         <div class="form-row">
+
+                              <div class="form-row-item">
+
+                                   <label for="">صاحب کارت</label>
+                                   <input type="text" name="crdName" id="crdName" placeholder="نام شناسنامه ای دارنده">
+
+                              </div>
+
+                              <div class="form-row-item">
+
+                                   <label for="">شناسه دوم (CCV2)</label>
+                                   <input type="number" min="100" max="9999" name="ccv" id="ccv" placeholder="کد سه یا چهار رقمی کارت">
+
+                              </div>
+
+                         </div>
+
+                         <div class="form-row">
+
+                              <div class="form-row-item">
+
+                                   <label for="">ماه انقضا</label>
+                                   <input type="number" name="monthExpire" id="monthExpire" placeholder="ماه اعتبار کارت">
+
+                              </div>
+
+                              <div class="form-row-item">
+
+                                   <label for="">سال انقضا</label>
+                                   <input type="number" name="yearExpire" id="yearExpire" placeholder="سال انقضای کارت">
+
+                              </div>
+
+                         </div>
+
+                         <button type="button" id="cartFormBtn" class="card-from-btn">ثبت قانونی کارت</button>
+
+                    </form>
+
+               </div>
+
+          </div>
+
+     </main>
+
+     <script src="app/js/script.js"></script>
+</body>
+</html>
